@@ -14,7 +14,6 @@ class MenuOptionTableViewCell: UITableViewCell {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
         iv.clipsToBounds = true
-        iv.backgroundColor = .blue
         return iv
     }()
     
