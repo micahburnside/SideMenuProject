@@ -16,6 +16,9 @@
 		54F3AD5A284FDC2A00AD9C3D /* SideMenuProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD59284FDC2A00AD9C3D /* SideMenuProjectTests.swift */; };
 		54F3AD64284FDC2A00AD9C3D /* SideMenuProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD63284FDC2A00AD9C3D /* SideMenuProjectUITests.swift */; };
 		54F3AD66284FDC2A00AD9C3D /* SideMenuProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD65284FDC2A00AD9C3D /* SideMenuProjectUITestsLaunchTests.swift */; };
+		54F3AD77284FDD0300AD9C3D /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD76284FDD0300AD9C3D /* ContainerController.swift */; };
+		54F3AD79284FDD0B00AD9C3D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD78284FDD0B00AD9C3D /* HomeController.swift */; };
+		54F3AD7B284FDD1500AD9C3D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD7A284FDD1500AD9C3D /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		54F3AD5F284FDC2A00AD9C3D /* SideMenuProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F3AD63284FDC2A00AD9C3D /* SideMenuProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuProjectUITests.swift; sourceTree = "<group>"; };
 		54F3AD65284FDC2A00AD9C3D /* SideMenuProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54F3AD76284FDD0300AD9C3D /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		54F3AD78284FDD0B00AD9C3D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		54F3AD7A284FDD1500AD9C3D /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,10 @@
 		54F3AD41284FDC2A00AD9C3D /* SideMenuProject */ = {
 			isa = PBXGroup;
 			children = (
+				54F3AD75284FDCE500AD9C3D /* Utilities */,
+				54F3AD74284FDCE300AD9C3D /* Model */,
+				54F3AD73284FDCE000AD9C3D /* View */,
+				54F3AD72284FDCDA00AD9C3D /* Controller */,
 				54F3AD42284FDC2A00AD9C3D /* AppDelegate.swift */,
 				54F3AD44284FDC2A00AD9C3D /* SceneDelegate.swift */,
 				54F3AD46284FDC2A00AD9C3D /* ViewController.swift */,
@@ -125,6 +135,37 @@
 				54F3AD65284FDC2A00AD9C3D /* SideMenuProjectUITestsLaunchTests.swift */,
 			);
 			path = SideMenuProjectUITests;
+			sourceTree = "<group>";
+		};
+		54F3AD72284FDCDA00AD9C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54F3AD76284FDD0300AD9C3D /* ContainerController.swift */,
+				54F3AD78284FDD0B00AD9C3D /* HomeController.swift */,
+				54F3AD7A284FDD1500AD9C3D /* MenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54F3AD73284FDCE000AD9C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54F3AD74284FDCE300AD9C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54F3AD75284FDCE500AD9C3D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +302,9 @@
 				54F3AD47284FDC2A00AD9C3D /* ViewController.swift in Sources */,
 				54F3AD43284FDC2A00AD9C3D /* AppDelegate.swift in Sources */,
 				54F3AD45284FDC2A00AD9C3D /* SceneDelegate.swift in Sources */,
+				54F3AD77284FDD0300AD9C3D /* ContainerController.swift in Sources */,
+				54F3AD7B284FDD1500AD9C3D /* MenuController.swift in Sources */,
+				54F3AD79284FDD0B00AD9C3D /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

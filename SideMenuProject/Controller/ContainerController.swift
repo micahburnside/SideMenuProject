@@ -1,5 +1,5 @@
 //
-//  HomeController.swift
+//  ContainerController.swift
 //  SideMenuProject
 //
 //  Created by Micah Burnside on 6/7/22.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class HomeController: UIViewController {
+class ConainerController: UIViewController {
     //MARK: - Properties
     
     //MARK: - Init
