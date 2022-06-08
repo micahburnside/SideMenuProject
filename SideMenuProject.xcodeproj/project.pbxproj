@@ -21,6 +21,7 @@
 		54F3AD7D284FF64200AD9C3D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD7C284FF64200AD9C3D /* Protocols.swift */; };
 		54F3AD7F284FFF5C00AD9C3D /* MenuOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD7E284FFF5C00AD9C3D /* MenuOptionTableViewCell.swift */; };
 		54F3AD812850042600AD9C3D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD802850042600AD9C3D /* MenuOption.swift */; };
+		54F3AD8328509C1000AD9C3D /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3AD8228509C1000AD9C3D /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		54F3AD7C284FF64200AD9C3D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		54F3AD7E284FFF5C00AD9C3D /* MenuOptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionTableViewCell.swift; sourceTree = "<group>"; };
 		54F3AD802850042600AD9C3D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		54F3AD8228509C1000AD9C3D /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				54F3AD76284FDD0300AD9C3D /* ContainerController.swift */,
 				54F3AD78284FDD0B00AD9C3D /* HomeController.swift */,
 				54F3AD7A284FDD1500AD9C3D /* MenuController.swift */,
+				54F3AD8228509C1000AD9C3D /* SettingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F3AD8328509C1000AD9C3D /* SettingsController.swift in Sources */,
 				54F3AD7F284FFF5C00AD9C3D /* MenuOptionTableViewCell.swift in Sources */,
 				54F3AD812850042600AD9C3D /* MenuOption.swift in Sources */,
 				54F3AD43284FDC2A00AD9C3D /* AppDelegate.swift in Sources */,

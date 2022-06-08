@@ -82,7 +82,8 @@ class ContainerController: UIViewController {
         case .Notifications:
             print("Notifications")
         case .Settings:
-            print("Settings")
+            let controller = SettingsController()
+            present(controller, animated: true, completion: nil)
         }
         
     }
@@ -93,6 +94,7 @@ class ContainerController: UIViewController {
             self.setNeedsStatusBarAppearanceUpdate()
         }, completion: nil)
     }
+    
 }
 
 extension ContainerController: HomeControllerDelegate {
